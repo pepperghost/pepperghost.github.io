@@ -1,6 +1,7 @@
 /* CURRENT JOB DURATION CALCULATOR:
 Breaks down duration into years and months
-Current: Cree Inc.  
+### CURRENT COMPANY ###
+Cree Inc.  
 
 ###START DATE### 
 March 2017

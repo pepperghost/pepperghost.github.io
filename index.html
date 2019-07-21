@@ -20,10 +20,21 @@
     <!-- Custom Style -->
     <link rel="stylesheet" href="style.css" />
 
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
     <title>Jenny Liao: graphic, web, ux/ui design + front-end web development</title>
 </head>
 
 <body>
+    <script>
+        $('#test-block').on('load','nav.html');
+    </script>
+    
+    <p>TEST AREA:  </p>
+    <div id="test-block"></div>
+   
+   
     <!-- Nav Menu -->
     <header>
         <nav class="row main-menu">
@@ -33,6 +44,7 @@
             <div class="col-6 col-md-3 menu-item"><a href="liao_resume.pdf" target="_new">resume</a></div>
         </nav>
     </header>
+
     <div class="main-body">
         <section id="featured-works">
             <a name="works"></a>
@@ -118,21 +130,22 @@
             <p class="xp-desc">current and past professional experiencess</p>
             <div class="row">
                 <div class="col-xs-12 job-entry">
-                    <h4 class="current-job">Cree Inc.</h4>
                     <p class="job-title">web designer</p>
+                    <h4 class="current-job">Cree Inc.</h4>
                     <p class="xp-date">march 2017 - <span id="current-date">current</span> <span id="job-duration"></span></p>
+
                     <ul>
-                        <li>Manage and update corporoate web contents across all Cree and Wolfspeed websites</li>
-                        <li>Stage and implement product launches, marketing campaigns and press releases on strict corporate schedule</li>
+                        <li>Manage and update corporate web contents across all Cree and Wolfspeed sites</li>
+                        <li>Stage, implement and QA product launches, marketing campaigns and press releases</li>
                         <li>Design and implement new content pages with HTML, CSS and Javascript</li>
                         <li>Create graphics for web and print collaterals while adhereing to corporate style guidelines</li>
                         <li>Conduct systematic website QA and testing (automated and manual)</li>
                     </ul>
                 </div>
                 <div class="col-xs-12 job-entry">
-                    <h4>Oak Ridge Associated Universities / U.S Environmental Protection Agency</h4>
                     <p class="job-title">ux/ui designer</p>
-                    <p class="xp-date">jun 2016 - oct 2016 (4 months)</p>
+                    <h4>Oak Ridge Associated Universities / U.S Environmental Protection Agency</h4>
+                    <p class="xp-date">june 2016 - october 2016 (4 months)</p>
                     <ul>
                         <li>General QA and evaluation of existing web application UI</li>
                         <li>Create low and high fidelity mock-ups for feature UI re-design</li>
@@ -141,9 +154,9 @@
                         <li>Created and discussed design documentations via Confluence</li>
                     </ul>
                 </div>
-                <div class="col-xs-12 col-md-6 job-entry">
+                <div class="col-xs-12 job-entry">
+                    <p class="job-title">front-end web development intern</p>
                     <h4>Theatre Reviews Ltd.</h4>
-                    <p class="job-title">web design/development intern</p>
                     <p class="xp-date">june 2016 - january 2017 (7 months)</p>
                     <ul>
                         <li>General evaluation and assessment of old non-responsive static HTML website</li>
@@ -166,13 +179,15 @@
 
 
     <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <!-- jQuery first, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
     <!-- time JS -->
     <script src="script.js"></script>
+
+    <!-- load JS -->
+    <script src="test.js"></script>
 
 </body>
 

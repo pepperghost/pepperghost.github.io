@@ -1,15 +1,12 @@
-/* Look into CSS variables; now built in CSS */
+html {
+  scroll-behavior: smooth;
+}
 
 body {
-/*    background-color: #f2f7ff;*/
     background-image: url(img/tiny_grid.png);
     background-repeat: repeat;
     color: #666666;
     font-family: 'Poppins', sans-serif;
-}
-
-html {
-  scroll-behavior: smooth;
 }
 
 p {
@@ -33,6 +30,7 @@ h3 {
 h4 {
     color: #666666;
     font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1.2em;
 }
 
 .tag-line {
@@ -164,6 +162,10 @@ header {
     margin-bottom: 6%;
 }
 
+.external-work-link {
+    font-weight: bold;
+    text-transform: uppercase;
+}
 
 /*---------------*/
 .grid {
